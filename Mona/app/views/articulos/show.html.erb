@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @articulo.name %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @articulo.color %>
+</p>
+
+<p>
+  <strong>Marca:</strong>
+  <%= @articulo.marca %>
+</p>
+
+<%= link_to 'Edit', edit_articulo_path(@articulo) %> |
+<%= link_to 'Back', articulos_path %>
